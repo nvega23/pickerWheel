@@ -4,42 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Spin Wheel with Prompts</title>
+    <link rel="icon" href="./assets/icons8-teach-48.png">
+    <title>Trainer Spinner Wheel</title>
 </head>
 <body>
     <div class="container">
         <div class="selectedPrompt">Selected Prompt: <span id="selectedPromptText">None</span></div>
-        <div class="wheel">
-            <div class="triangle" style="--i:1; --clr:#db7093;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:2; --clr:#20b211;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:3; --clr:#d63e92;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:4; --clr:#daa520;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:5; --clr:#ff340f;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:6; --clr:#ff7f50;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:7; --clr:#3cb371;">
-                <span></span>
-            </div>
-            <div class="triangle" style="--i:8; --clr:#4169e1;">
-                <span></span>
-            </div>
+    
+        <div class="nameList" id="nameList">
+            <span class="name">Nestor</span>
+            <span class="name">Noemi</span>
+            <span class="name">Trini</span>
+            <span class="name">Alyssa</span>
+            <span class="name">Oli</span>
+            <span class="name">Ann</span>
+            <span class="name">Vanessa</span>
         </div>
+    
+        <div class="wheel">
+            <div class="triangle" style="--i:1; --clr:#db7093;"><span></span></div>
+            <div class="triangle" style="--i:2; --clr:#20b211;"><span></span></div>
+            <div class="triangle" style="--i:3; --clr:#d63e92;"><span></span></div>
+            <div class="triangle" style="--i:4; --clr:#daa520;"><span></span></div>
+            <div class="triangle" style="--i:5; --clr:#ff340f;"><span></span></div>
+            <div class="triangle" style="--i:6; --clr:#ff7f50;"><span></span></div>
+            <div class="triangle" style="--i:7; --clr:#3cb371;"><span></span></div>
+            <div class="triangle" style="--i:8; --clr:#4169e1;"><span></span></div>
+        </div>
+        
         <div class="spinBtn">
             <div class="pointer"></div>
             <span>Spin</span>
         </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
