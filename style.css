@@ -194,21 +194,3 @@ body {
     height: 0;
     transition: all 0.5s ease;
 }
-
-/*
-.enlarged {
-    width: 60%;
-    height: 60%;
-    transition: all 0.5s ease;
-}
-
-.container .wheel .triangle.enlarged {
-    width: 60%;
-    height: 60%;
-    transition: all 0.5s ease;
-}
-
-.container .wheel .triangle.adjusted-height {
-    height: 80%;
-    transition: height 0.5s ease;
-} */
