@@ -11,7 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #333;
-    background-image: url('https://images.unsplash.com/photo-1541550353839-95e417a9f95b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://i.etsystatic.com/10243818/r/il/6bfe44/3322772619/il_fullxfull.3322772619_ppsv.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
     width: 400px;
     height: 400px;
     background: #444;
-    background-image: url('https://images.unsplash.com/photo-1453259119614-6f02e8d5b25a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /* background-image: url('https://images.unsplash.com/photo-1453259119614-6f02e8d5b25a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,8 +156,13 @@ body {
 }
 
 .nameList {
+    /* text-align: center;
+    margin-top: 85vh; */
+    margin-top: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: auto;
 }
 
 .name {
@@ -166,7 +171,7 @@ body {
     padding: 5px 10px;
     font-size: 1.2em;
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 0, 0, 0.585);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }

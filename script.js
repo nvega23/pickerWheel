@@ -16,7 +16,7 @@ const backgroundImages = {
     Nestor: 'url("https://images.unsplash.com/photo-1580603474920-aa3332b2c40f?q=80&w=2815&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
     Noemi: 'url("https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?q=80&w=3015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
     Trini: 'url("https://wallpapers.com/images/featured/duck-px752pz3biq4fs4f.jpg")',
-    Alyssa: 'url("https://i.pinimg.com/736x/6f/f5/de/6ff5dea23ec79b7dd84bed56cd744c64.jpg")',
+    Alyssa: 'url("https://images.unsplash.com/photo-1542481075-56ef1fd61d32?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
     Oli: 'url("https://w0.peakpx.com/wallpaper/384/56/HD-wallpaper-so-beautiful-and-happy-panda-panda-brothers-amazing-animal.jpg")',
     Ann: 'url("https://images.unsplash.com/photo-1486365227551-f3f90034a57c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
     Vanessa: 'url("https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
@@ -26,15 +26,15 @@ let value = Math.ceil(Math.random() * 3600);
 
 async function getPromptsFromChatGPT() {
     return [
-        "What’s the most interesting thing you’ve learned this week?",
-        "What’s the best piece of advice you’ve ever received and how has it impacted your life?",
-        "What’s a talent you wish you had and why?",
+        "What's your favorite childhood memory?",
+        "What is your favorite hobby, and why?",
+        "What is your biggest goal for the next 6 months?",
         "What’s the most adventurous thing you’ve ever done and how did it change you?",
-        "If you could meet any historical figure, who would it be and what would you ask them?",
-        "Describe a skill you’ve always wanted to learn but haven’t yet. What’s holding you back?",
-        "What’s the weirdest food combination you secretly love?",
-        "If your pet could talk, what do you think they’d say about you?",
-        "What’s the craziest thing on your bucket list?"
+        "If you could instantly learn a new language, which one would it be?",
+        "Share a book, movie, or series that changed your perspective on life.",
+        "What’s your go-to comfort food?",
+        "What motivates you to keep going when things get tough?",
+        "What’s your favorite way to unwind after a long day?"
     ];
 }
 
