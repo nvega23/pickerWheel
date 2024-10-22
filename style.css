@@ -171,7 +171,7 @@ body {
     padding: 5px 10px;
     font-size: 1.2em;
     color: #fff;
-    background-color: rgba(255, 0, 0, 0.585);
+    background-color: rgb(255, 157, 0);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
