@@ -26,15 +26,15 @@ let value = Math.ceil(Math.random() * 3600);
 
 async function getPromptsFromChatGPT() {
     return [
-        "What's your favorite childhood memory?",
-        "What is your favorite hobby, and why?",
-        "What is your biggest goal for the next 6 months?",
-        "What’s the most adventurous thing you’ve ever done and how did it change you?",
-        "If you could instantly learn a new language, which one would it be?",
-        "Share a book, movie, or series that changed your perspective on life.",
-        "What’s your go-to comfort food?",
-        "What motivates you to keep going when things get tough?",
-        "What’s your favorite way to unwind after a long day?"
+        "If you could relive one day in your life, which day would you choose and why?",
+        "If you could design your dream treehouse, what quirky features would it have?",
+        "If every year you had to live in a different climate, where would you start and why?",
+        "You find a journal with a note saying it grants wisdom if you add to it. What advice or story would you leave for the next reader?",
+        "If you could create a magical potion, what would it do and what would you name it?",
+        "You get to design your own island paradise. What’s the wildest thing you’d add that’s totally unique to you?",
+        "If you could give every person in the world a small gift to make their day brighter, what would it be?",
+        "If your personality were a new color in the crayon box, what would it be named and what color would it look like?",
+        "If you could reimagine any fairy tale or myth with a modern twist, which would you pick and how would you change it?"
     ];
 }
 
